@@ -100,6 +100,9 @@ searchInput.addEventListener("keyup", searchLinks);
 var filterSelect = document.getElementById("filterSelect");
 filterSelect.addEventListener("change", searchLinks);
 
+var filterSelect = document.getElementById("filterSelect");
+filterSelect.addEventListener("change", searchLinks);
+
 // initialize the link list on page load
 updateLinkList();
 
