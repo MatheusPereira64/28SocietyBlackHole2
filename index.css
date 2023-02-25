@@ -136,3 +136,13 @@ input[type="text"] {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
+.link-list-container {
+  height: 300px;
+  overflow-y: scroll;
+}
+/* add a max-height to the link list and overflow-y: scroll to enable scrolling */
+#linkList {
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
