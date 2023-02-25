@@ -102,3 +102,7 @@ filterSelect.addEventListener("change", searchLinks);
 
 // initialize the link list on page load
 updateLinkList();
+
+window.addEventListener('load', function() {
+  updateLinkList();
+});
